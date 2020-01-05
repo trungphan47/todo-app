@@ -1,4 +1,5 @@
-private static void sum(int a,int b){
-
+private static void sum throw Exception(int a,int b){
+if(a+b>Integer.MAX){
+throw new Exception("vu?t quá r?i");}
 return a+b;
 }
