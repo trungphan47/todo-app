@@ -1,0 +1,6 @@
+public int mod(int a,int b)throws AriththmeticException{
+if(b==0){
+throw new ArithmeticException();
+}
+return a/b;
+}
