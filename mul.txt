@@ -1,3 +1,5 @@
 private static int (int a,int b){
+if(a*b>Integer.MAX){ throw new Exception("loi")
+}
 return a*b;
 }
