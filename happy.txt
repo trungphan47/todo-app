@@ -1,0 +1,4 @@
+public boolean isHappy(int n){
+return true;
+
+}
